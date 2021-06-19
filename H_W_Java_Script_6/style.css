@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.wrapUsersBlocks, .wrapRuls {
+    width: 600px;
+    background-color: bisque;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.divWrapUser, .wrapRulSingle {
+    width: 400px;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.divName, .divAge, .divStatus, .divAdres, .divAdressDescription, .divNumberRul {
+    width: 70%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.divName, .divAdressDescription, .divNumberRul {
+    background-color: chartreuse;
+}
+
+.divAge, .divTxtRul {
+    background-color: rgb(219, 31, 178);
+}
+
+.divStatus {
+    background-color: rgb(50, 44, 133);
+    color: yellow;
+}
+
+.divAdres {
+    background-color: rgb(129, 37, 25);
+    padding-bottom: 10px;
+}
+
+/* 3 */
+
+.wrapRuls {
+    margin-top: 20px;
+}
+.wrapRulSingle{
+    display: flex;
+    flex-direction: column;
+}
+.divNumberRul{
+    font-size: 20px;
+    padding: 15px;
+}
